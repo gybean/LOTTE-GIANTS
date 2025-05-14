@@ -1,0 +1,308 @@
+@import url("reset.css");
+@import url("../font/pretendard/stylesheet.css");
+body,
+html {
+  background-color: #022346;
+  font-family: "Pretendard";
+  font-size: 62.5%;
+  color: #fff;
+  line-height: 1.4;
+}
+
+section {
+  margin-bottom: 24rem;
+}
+section .inner {
+  max-width: 1440px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+section .inner .title {
+  display: flex;
+  align-items: center;
+}
+section .inner .title h2 {
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+section .inner .title .btn {
+  padding: 1.2rem;
+  /* width: 5.4rem;
+  height: 5.4rem; */
+  border: 1px solid #fff;
+  border-radius: 5rem;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+section .inner .title .btn span {
+  margin: 0 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  display: none;
+}
+section .inner .title .btn:hover {
+  background-color: #fff;
+}
+section .inner .title .btn:hover span {
+  display: block;
+  color: #022346;
+}
+section .inner .title .btn:hover svg path {
+  fill: #022346;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100px;
+  padding: 0 6rem;
+  font-size: 2rem;
+  font-weight: 600;
+  transition: 0.3s;
+  /* inner */
+}
+.header:hover {
+  background-color: #fff;
+  color: #022346;
+}
+.header:hover .inner .left_sns li:nth-child(2) a svg path {
+  stroke: none;
+  fill: #022346;
+}
+.header:hover .inner .left_sns li a svg path {
+  stroke: #022346;
+}
+.header .inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* left_sns */
+  /* nav */
+  /* right_util */
+}
+.header .inner .left_sns {
+  width: 140px;
+  display: flex;
+  gap: 16px;
+}
+.header .inner .nav {
+  display: flex;
+  align-items: center;
+  /* gnb */
+  /* logo */
+}
+.header .inner .nav .gnb {
+  text-align: center;
+  display: flex;
+  gap: 60px;
+}
+.header .inner .nav .gnb.left {
+  margin-right: 6rem;
+}
+.header .inner .nav .gnb.right {
+  margin-left: 6rem;
+}
+.header .inner .nav .gnb > li {
+  position: relative;
+}
+.header .inner .nav .gnb > li .depth-01 {
+  padding-bottom: 3.6rem;
+}
+.header .inner .nav .gnb > li .depth-02 {
+  padding: 2rem;
+  border-radius: 1.6rem;
+  background-color: #fff;
+  white-space: nowrap;
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+.header .inner .nav .gnb > li .depth-02 li {
+  padding: 0.8rem 4rem;
+}
+.header .inner .nav .gnb > li .depth-02 li a {
+  transition: 0.2s ease;
+}
+.header .inner .nav .gnb > li .depth-02 li a:hover {
+  color: #022346;
+}
+.header .inner .nav .logo {
+  margin: 0;
+}
+.header .inner .nav .logo a img {
+  height: 80px;
+  display: block;
+}
+.header .inner .right_util {
+  width: 140px;
+  display: flex;
+  gap: 16px;
+}
+
+/* header */
+.main_visual {
+  margin-bottom: 0;
+}
+.main_visual .video video {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main_visual::after {
+  content: "";
+  width: 100%;
+  height: 30rem;
+  background: #022346;
+  background: linear-gradient(0deg, rgb(2, 35, 70) 0%, rgba(2, 35, 70, 0) 100%);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* main_visual */
+.section-01 {
+  padding-top: 4rem;
+  /* inner */
+}
+.section-01 .inner {
+  /* box_wrap */
+}
+.section-01 .inner .box_wrap {
+  display: flex;
+  gap: 1.2rem;
+  /* box */
+}
+.section-01 .inner .box_wrap .box {
+  padding: 4rem;
+  width: 47.2rem;
+  height: 31.5rem;
+  border-radius: 1.6rem;
+  background: #004A98;
+  background: linear-gradient(-45deg, rgb(0, 74, 152) 0%, rgb(43, 117, 195) 100%);
+  box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.3);
+  /* date */
+  /* .info */
+  /* preview */
+  /* day-01 */
+}
+.section-01 .inner .box_wrap .box .date {
+  padding-bottom: 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+}
+.section-01 .inner .box_wrap .box .date p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.section-01 .inner .box_wrap .box .date span {
+  font-size: 2rem;
+}
+.section-01 .inner .box_wrap .box .date::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.section-01 .inner .box_wrap .box .info {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* versus */
+}
+.section-01 .inner .box_wrap .box .info .team {
+  width: 9.2rem;
+}
+.section-01 .inner .box_wrap .box .info .team .image {
+  margin-bottom: 0.8rem;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.section-01 .inner .box_wrap .box .info .team .image img {
+  height: 100%;
+}
+.section-01 .inner .box_wrap .box .info .team .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+.section-01 .inner .box_wrap .box .info .team .text b {
+  font-weight: 600;
+}
+.section-01 .inner .box_wrap .box .info .versus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-01 .inner .box_wrap .box .info .versus span {
+  font-size: 1.8rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.section-01 .inner .box_wrap .box .info .versus b {
+  font-size: 5.6rem;
+  font-weight: 600;
+  line-height: 1;
+  opacity: 0.5;
+}
+.section-01 .inner .box_wrap .box .preview {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+.section-01 .inner .box_wrap .box .preview span {
+  margin-left: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.section-01 .inner .box_wrap .box .preview:hover {
+  transform: translateY(-10px);
+}
+.section-01 .inner .box_wrap .box.day-01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-01 .inner .box_wrap .box.day-01 span {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.section-01 .inner .box_wrap .box.day-02 {
+  position: relative;
+}
+.section-01 .inner .box_wrap .box.day-02::before {
+  content: "TODAY!";
+  font-size: 1.8rem;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  top: -30px;
+}
+.section-01 .inner .box_wrap .box:hover {
+  border: 1px solid #fff;
+}
+
+/* section-01 *//*# sourceMappingURL=main.css.map */
