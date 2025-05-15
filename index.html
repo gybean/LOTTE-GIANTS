@@ -7,7 +7,10 @@
     <title>롯데 자이언츠</title>
     <link rel="stylesheet" href="css/main.scss">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css">
     <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="lib/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -244,9 +247,119 @@
             </section><!-- .section-01 end -->
 
             <section class="section-02">
+                <div class="title inner">
+                    <h2>NEWS</h2>
+                    <a href="#" class="btn">
+                        <span>더 보기</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.75 4.5C11.9489 4.5 12.1397 4.57902 12.2803 4.71967C12.421 4.86032 12.5 5.05109 12.5 5.25V11H18.25C18.4489 11 18.6397 11.079 18.7803 11.2197C18.921 11.3603 19 11.5511 19 11.75C19 11.9489 18.921 12.1397 18.7803 12.2803C18.6397 12.421 18.4489 12.5 18.25 12.5H12.5V18.25C12.5 18.4489 12.421 18.6397 12.2803 18.7803C12.1397 18.921 11.9489 19 11.75 19C11.5511 19 11.3603 18.921 11.2197 18.7803C11.079 18.6397 11 18.4489 11 18.25V12.5H5.25C5.05109 12.5 4.86032 12.421 4.71967 12.2803C4.57902 12.1397 4.5 11.9489 4.5 11.75C4.5 11.5511 4.57902 11.3603 4.71967 11.2197C4.86032 11.079 5.05109 11 5.25 11H11V5.25C11 5.05109 11.079 4.86032 11.2197 4.71967C11.3603 4.57902 11.5511 4.5 11.75 4.5Z"
+                                fill="white" />
+                        </svg>
+                    </a><!-- .btn end -->
+                </div><!-- .title end -->
+                <!-- Swiper -->
+                <div class="swiper section02Swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-01.jpg"
+                                    alt="“항상 한 이닝 앞에서…” KBO 역대 5번째 기록 탄생 → 3연승 행진, 사령탑은 왜 ‘미안하다’ 했을까">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>“항상 한 이닝 앞에서…” KBO 역대 5번째 기록 탄생 → 3연승 행진, 사령탑은 왜 ‘미안하다’ 했을까</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-02.jpg" alt="“정철원-김원중, 항상 한 이닝 앞에 들어가서…” 김태형은 이기고도 또 미안했다">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>“정철원-김원중, 항상 한 이닝 앞에 들어가서…” 김태형은 이기고도 또 미안했다</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-03.jpg"
+                                    alt="‘정철원 벌써 10홀드’ 롯데 트레이드 걸작 포효, 단독 3위 사수…KT는 5할 붕괴 [수원 게임노트]">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>‘정철원 벌써 10홀드’ 롯데 트레이드 걸작 포효, 단독 3위 사수…KT는 5할 붕괴 [수원 게임노트]</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-04.jpg"
+                                    alt="나균안 5실점 극복! ‘손호영 역전타+김원중 6년 연속 10SV’ 롯데, KT 잡고 승승승…패패패패 KT 5할 붕괴 [수원 리뷰]">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>나균안 5실점 극복! ‘손호영 역전타+김원중 6년 연속 10SV’ 롯데, KT 잡고 승승승…패패패패 KT 5할 붕괴 [수원 리뷰]</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-05.jpg"
+                                    alt="‘1-0→1-3→3-3→4-3→4-5→8-5’ 장단 16안타+김원중 韓 역대 5번째 ‘금자탑’…’3연승’ 롯데의 거침없는 질주 [MD수원]">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>‘1-0→1-3→3-3→4-3→4-5→8-5’ 장단 16안타+김원중 韓 역대 5번째 ‘금자탑’…’3연승’ 롯데의 거침없는 질주 [MD수원]</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-06.jpg"
+                                    alt="드디어 롯데 불펜에 구세주가 뜨나…명장도 “5월 안에는 1군에서” 기대, 51홀드 경력자 컴백 임박">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>드디어 롯데 불펜에 구세주가 뜨나…명장도 “5월 안에는 1군에서” 기대, 51홀드 경력자 컴백 임박</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-07.jpg"
+                                    alt="지옥에서도 데려온다는 ‘좌완 파이어볼러’…롯데 ‘1R 유망주’ 약 1년 만에 콜업 “괜찮다는 보고 올라와” [MD수원]">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>지옥에서도 데려온다는 ‘좌완 파이어볼러’…롯데 ‘1R 유망주’ 약 1년 만에 콜업 “괜찮다는 보고 올라와” [MD수원]</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide">
+                            <div class="image">
+                                <img src="img/news-08.jpg"
+                                    alt="‘롯데-KT전 어쩌나’ 수원에 폭우 쏟아진다, DH 1경기라도 취소 시 11일 DH…기상 상황 예의주시 [오!쎈 수원]">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>‘롯데-KT전 어쩌나’ 수원에 폭우 쏟아진다, DH 1경기라도 취소 시 11일 DH…기상 상황 예의주시 [오!쎈 수원]</p>
+                            </div><!-- .text end -->
+                        </div><!-- .swiper-slide end -->
+                        <div class="swiper-slide"></div>
+                    </div><!-- .swiper-wrapper end -->
+                    <div class="custom-pagination-wrapper">
+                        <div class="swiper-button-prev">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 18L18 27M27.75 18H9H27.75ZM9 18L18 9L9 18Z" stroke="white"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div><!-- .swiper-button-prev -->
+                        <div class="page">
+                            <span class="current-page">1</span><b> / </b><span class="total-pages">2</span>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.75 18L18.75 27M9 18H27.75H9ZM27.75 18L18.75 9L27.75 18Z" stroke="white"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div><!-- .swiper-button-next end -->
+                    </div><!-- .custom-pagination-wrapper end -->
+                </div><!-- .swiper end -->
+            </section><!-- .section-02 end -->
+
+            <section class="section-03">
                 <div class="inner">
                     <div class="title">
-                        <h2>NEWS</h2>
+                        <h2>GALLERY</h2>
                         <a href="#" class="btn">
                             <span>더 보기</span>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -257,9 +370,254 @@
                             </svg>
                         </a><!-- .btn end -->
                     </div><!-- .title end -->
+                    <div class="item_wrap">
+                        <div class="column column-01">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-1.jpg" alt="2025년 05월 10일 롯데 자이언츠 vs KT 위즈">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 10일</p><!-- .date -->
+                                        <span class="info">롯데 자이언츠 vs KT 위즈</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-5.jpg" alt="2025년 05월 04일 NC 다이노스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 04일</p><!-- .date -->
+                                        <span class="info">NC 다이노스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                        </div><!-- .column-01 -->
+                        <div class="column column-02">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-2.jpg" alt="2025년 05월 07일 SSG 랜더스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 07일</p><!-- .date -->
+                                        <span class="info">SSG 랜더스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-6.jpg" alt="2025년 05월 03일 NC 다이노스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 03일</p><!-- .date -->
+                                        <span class="info">NC 다이노스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-9.jpg" alt="2025년 04월 30일 롯데 자이언츠 vs 키움 히어로즈">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 04월 30일</p><!-- .date -->
+                                        <span class="info">롯데 자이언츠 vs 키움 히어로즈</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                        </div><!-- .column-02 -->
+                        <div class="column column-03">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-3.jpg" alt="2025년 05월 06일 SSG 랜더스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 06일</p><!-- .date -->
+                                        <span class="info">SSG 랜더스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-7.jpg" alt="2025년 05월 02일 NC 다이노스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 02일</p><!-- .date -->
+                                        <span class="info">NC 다이노스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                        </div><!-- .column-03 -->
+                        <div class="column column-04">
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-4.jpg" alt="2025년 05월 05일 SSG 랜더스 vs 롯데 자이언츠">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 05일</p><!-- .date -->
+                                        <span class="info">SSG 랜더스 vs 롯데 자이언츠</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                            <div class="item">
+                                <a href="#">
+                                    <div class="image">
+                                        <img src="img/sec03-8.jpg" alt="2025년 05월 01일 롯데 자이언츠 vs 키움 히어로즈">
+                                    </div><!-- .image end -->
+                                    <div class="text">
+                                        <p class="date">2025년 05월 01일</p><!-- .date -->
+                                        <span class="info">롯데 자이언츠 vs 키움 히어로즈</span>
+                                    </div><!-- .text end -->
+                                </a>
+                            </div><!-- .item end -->
+                        </div><!-- .column-04 -->
+                    </div><!-- .item_wrap end -->
                 </div><!-- .inner end -->
-            </section><!-- .section-02 end -->
+            </section><!-- .section-03 end -->
+
+            <section class="section-04">
+                <div class="inner">
+                     <div class="title">
+                        <h2>GIANTS SHOP BEST ITEMS</h2>
+                        <a href="#" class="btn">
+                            <span>더 보기</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.75 4.5C11.9489 4.5 12.1397 4.57902 12.2803 4.71967C12.421 4.86032 12.5 5.05109 12.5 5.25V11H18.25C18.4489 11 18.6397 11.079 18.7803 11.2197C18.921 11.3603 19 11.5511 19 11.75C19 11.9489 18.921 12.1397 18.7803 12.2803C18.6397 12.421 18.4489 12.5 18.25 12.5H12.5V18.25C12.5 18.4489 12.421 18.6397 12.2803 18.7803C12.1397 18.921 11.9489 19 11.75 19C11.5511 19 11.3603 18.921 11.2197 18.7803C11.079 18.6397 11 18.4489 11 18.25V12.5H5.25C5.05109 12.5 4.86032 12.421 4.71967 12.2803C4.57902 12.1397 4.5 11.9489 4.5 11.75C4.5 11.5511 4.57902 11.3603 4.71967 11.2197C4.86032 11.079 5.05109 11 5.25 11H11V5.25C11 5.05109 11.079 4.86032 11.2197 4.71967C11.3603 4.57902 11.5511 4.5 11.75 4.5Z"
+                                    fill="white" />
+                            </svg>
+                        </a><!-- .btn end -->
+                    </div><!-- .title end -->
+                    <div class="item_wrap">
+                        <div class="item">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="img/sec04-1.png" alt="홈 짝짝이">
+                                </div><!-- .image end -->
+                                <div class="text">
+                                    <span class="product">홈 짝짝이</span>
+                                    <span class="price">4,000원</span>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="img/sec04-2.jpg" alt="직자수 마킹 (프로페셔널)">
+                                </div><!-- .image end -->
+                                <div class="text">
+                                    <span class="product">직자수 마킹 (프로페셔널)</span>
+                                    <span class="price">25,000원</span>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="img/sec04-3.png" alt="피카츄 타포린백">
+                                </div><!-- .image end -->
+                                <div class="text">
+                                    <span class="product">피카츄 타포린백</span>
+                                    <span class="price">6,000원</span>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <a href="#">
+                                <div class="image">
+                                    <img src="img/sec04-4.png" alt="올드 스트라이프 어센틱 유니폼">
+                                </div><!-- .image end -->
+                                <div class="text">
+                                    <span class="product">올드 스트라이프 어센틱 유니폼</span>
+                                    <span class="price">99,000원</span>
+                                </div><!-- .text end -->
+                            </a>
+                        </div><!-- .item end -->
+                    </div><!-- .item_wrap end -->
+                </div><!-- .inner end -->
+            </section><!-- .section-04 end -->
+
+            <section class="section-05">
+                <div class="item_wrap">
+                    <div class="item">
+                        <img src="img/hospita-01.png" alt="센트럴병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-02.png" alt="힘나는병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-03.png" alt="센텀종합병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-04.png" alt="빌리브세웅병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-05.png" alt="좋은삼선병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-06.png" alt="거인병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-07.png" alt="부산의료원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-08.png" alt="효성시티병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-09.png" alt="경산중앙병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-10.png" alt="울산병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-11.png" alt="하이뷰병원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-12.png" alt="메디우먼여성의원">
+                    </div><!-- .item end -->
+                    <div class="item">
+                        <img src="img/hospita-13.png" alt="이현재피부과의원">
+                    </div><!-- .item end -->
+                </div><!-- .item_wrap end -->
+            </section><!-- .section-05 end -->
         </main><!-- .main end -->
+
+        <footer class="footer">
+            <div class="inner">
+                <div class="left">
+                    <div class="logo">
+                        <img src="img/footer-logo.png" alt="푸터로고">
+                    </div><!-- .logo -->
+                    <div class="text_wrap">
+                        <ul class="menu">
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul><!-- .munu -->
+                        <ul class="info">
+                            <li>부산광역시 동래구 사직로 45</li>
+                            <li>사업자등록번호 607-81-19196</li>
+                            <li>(주)롯데자이언츠 대표 김덕희</li>
+                        </ul><!-- .info -->
+                        <span>TEL 051-852-1982</span>
+                    </div><!-- .text_wrap end -->
+                </div><!-- .left end -->
+                <div class="right">
+                    <ul class="logo_wrap">
+                        <li><img src="img/footer-edulogo.png" alt="교육기부 우수기관"></li>
+                        <li><img src="img/footer-weblogo.png" alt="웹접근성"></li>
+                    </ul><!-- .logo_wrap end -->
+                    <span>COPYRIGHT 2015 LOTTE GIANTS. ALL RIGHTS RESERVED.</span>
+                </div><!-- .right end -->
+            </div><!-- .inner end -->
+        </footer><!-- .footer end -->
     </div><!-- #wrap end -->
 </body>
 
