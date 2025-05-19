@@ -683,6 +683,12 @@ section .inner {
 .section-03 .item_wrap .column .item a .text p {
   font-weight: 600;
 }
+.section-03 .item_wrap .column .item a .text span {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
 .section-03 .item_wrap .column.column-02 .item:last-child .image {
   height: 52.6rem;
 }
@@ -825,6 +831,27 @@ section .inner {
   padding: 5rem 0;
   word-break: keep-all;
   /* inner */
+}
+.footer .btn_wrap {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer .btn_wrap button {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #004A98;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .btn_wrap .top span {
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #fff;
 }
 .footer .inner {
   max-width: 1440px;

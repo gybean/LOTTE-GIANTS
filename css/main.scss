@@ -698,6 +698,12 @@ section {
                         p {
                             font-weight: 600;
                         }
+                        span {
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                            overflow: hidden;
+                        }
                     }
                 }
             }
@@ -862,6 +868,29 @@ section {
     font-size: 17px;
     padding: 5rem 0;
     word-break: keep-all;
+    .btn_wrap {
+        /* position: absolute; */
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        button {
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #004A98;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .top {
+            span {
+                font-size: 2.8rem;
+                font-weight: 500;
+                color: #fff;
+            }
+        }
+    }
     .inner {
         max-width: 1440px;
         width: calc(100% - 40px);
