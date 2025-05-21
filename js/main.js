@@ -134,4 +134,34 @@ $(function () {
 
 
 
+  //탑버튼 위치
+  //부드럽게 올라가기
+  let footer = document.querySelector('.footer');
+  let footerTop = footer.offsetTop;
+  let windowHeight = window.innerHeight;
+  let topBtn = document.querySelector('.footer .top');
+  let section01 = document.querySelector('.section-01');
+  let section01Top = section01.offsetTop;
+
+  window.addEventListener('scroll', () => {
+    let scrollTop = window.scrollY;
+    console.log(footerTop);
+    console.log(windowHeight + scrollTop);
+
+    if(scrollTop >= section01Top) {
+      topBtn.style.display = 'block';
+    } else {
+      topBtn.style.display = 'none';
+    }
+  });
+
+  topBtn.addEventListener('click', () => {
+    window.scrollTo({
+      top : 0,
+      behavior : 'smooth'
+    });
+  });
+
+
+
 });
