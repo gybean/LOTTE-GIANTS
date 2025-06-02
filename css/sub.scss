@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url('common.css');
+@font-face {
+    font-family: 'Giants-Inline';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Inline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.section-01 {
+    .inner {
+        .title {
+            h4 {
+                font-family: 'Giants-Inline';
+                font-size: 12rem;
+                color: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(178, 215, 255, 1) 100%);
+            }
+            .sub_nav {
+                
+            }
+        }
+    }
+} /* .section-01 end */
