@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>롯데 자이언츠</title>
     <link rel="stylesheet" href="../css/sub.scss">
     <link rel="stylesheet" href="../css/sub.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="../lib/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../lib/gsap.min.js"></script>
+    <script src="../lib/ScrollTrigger.min.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/sub.js"></script>
 </head>
+
 <body>
     <div id="wrap">
         <header class="header">
@@ -88,7 +96,7 @@
                         </li>
                     </ul><!-- .gnb_left end -->
                     <h1 class="logo">
-                        <a href="#">
+                        <a href="../index.html">
                             <img src="../img/lotte_logo_stroke.png" alt="롯데 자이언츠 로고">
                         </a>
                     </h1><!-- .logo end -->
@@ -252,7 +260,7 @@
                         <h4>LOTTE GIANTS</h4>
                     </div><!-- .title end -->
                     <ul class="sub_nav">
-                        <li><a href="#">홈</a></li>
+                        <li><a href="../index.html">홈</a></li>
                         <li><img src="../img/subnav-arrow.png" alt="서브페이지 내비게이션"></li>
                         <li><a href="#">GIANTS</a></li>
                         <li><img src="../img/subnav-arrow.png" alt="서브페이지 내비게이션"></li>
@@ -262,9 +270,245 @@
             </section><!-- .section-01 end -->
 
             <section class="section-02">
-
+                <div class="inner">
+                    <div class="big_txt">
+                        <p class="b_txt">롯데 자이언츠는 부산을 연고지로 두고</p>
+                        <p class="b_txt">1982년 한국 프로야구 출범 이래</p>
+                        <p class="b_txt">팀명과 연고지, 모그룹이 바뀌지 않는 전통 있는 명문 구단입니다.</p>
+                    </div><!-- .big_txt end -->
+                </div><!-- .inner end -->
             </section><!-- .section-02 end -->
+
+            <section class="section-03" data-aos="zoom-in">
+                <video autoplay muted loop>
+                    <source src="../img/sub-video.mp4" type="video/mp4">
+                </video>
+                <div class="text">
+                    <p>팬들과 함께하는<br />프로야구 최고의 인기구단</p>
+                </div><!-- .text end -->
+            </section><!-- .section-03 end -->
+
+            <section class="section-04">
+                <div class="inner">
+                    <div class="title">
+                        <h5 class="left">팬과 함께하는<br />프로야구 최고의 인기구단</h5>
+                        <p class="right">열정적인 응원으로 한국프로야구 관중문화를 선도하고<br />
+                            많은 관중을 동원하는 우리 롯데 자이언츠의 팬들은<br />
+                            부산의 자랑이자 선수들의 자부심입니다.</p>
+                    </div><!-- .title end -->
+                    <div class="item_wrap">
+                        <div class="item" data-aos="fade-up">
+                            <div class="image">
+                                <img src="../img/contentsbg-01.jpg" alt="한국프로야구 최초 한 시즌 100만 관중 입장 달성">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <span class="year">1991년</span>
+                                <div class="txt-bottom">
+                                    한국프로야구 최초<br />
+                                    한 시즌 100만 관중<br />
+                                    입장 달성
+                                </div><!-- .txt-bottom end -->
+                            </div><!-- .text end -->
+                        </div><!-- .item end -->
+                        <div class="item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="image">
+                                <img src="../img/contentsbg-02.jpg" alt="단일시즌 역대 최다관중 기록">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <span class="year">2009년</span>
+                                <div class="txt-bottom">
+                                    단일시즌 역대<br />
+                                    최다관중 기록
+                                    <b class="audience">1,380,018명</b>
+                                </div><!-- .txt-bottom end -->
+                            </div><!-- .text end -->
+                        </div><!-- .item end -->
+                        <div class="item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="image">
+                                <img src="../img/contentsbg-03.jpg" alt="KBO 천만관중 시대">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <span class="year">2024년</span>
+                                <div class="txt-bottom">
+                                    KBO 천만관중 시대<br />
+                                    롯데 자이언츠
+                                    <b class="audience">1,232,840명</b>
+                                </div><!-- .txt-bottom end -->
+                            </div><!-- .text end -->
+                        </div><!-- .item end -->
+                    </div><!-- .item_wrap end -->
+                </div><!-- .inner end -->
+            </section><!-- .section-04 end -->
+
+            <section class="section-05" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+                <div class="inner">
+                    <div class="item_wrap">
+                        <div class="item">
+                            <div class="image">
+                                <img src="../img/sub-vision01.jpg" alt="비전">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <img src="../img/icon-check.png" alt="비전">
+                                <span>
+                                    구도부산을 대표하는 야구단으로서<br />
+                                    팬과 파트너와 함께,<br />
+                                    일상에 스며드는 가치
+                                </span>
+                            </div><!-- .text end -->
+                        </div><!-- .item end -->
+                        <div class="item center">
+                            <div class="title">
+                                <p>비전과 목표</p>
+                            </div><!-- .title end -->
+                        </div><!-- .item end -->
+                        <div class="item">
+                            <div class="image">
+                                <img src="../img/sub-vision02.jpg" alt="목표">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <img src="../img/icon-check.png" alt="목표">
+                                <span>
+                                    무한열정으로 리그를 선도하는<br />가치 크리에이터
+                                </span>
+                            </div><!-- .text end -->
+                        </div><!-- .item end -->
+                    </div><!-- .item_wrap end -->
+                </div><!-- .inner end -->
+            </section><!-- .section-05 end -->
+
+            <section class="section-06" data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-offset="0">
+                <div class="inner">
+                    <div class="title">
+                        <h5>가족과 함께하는 부산 사직야구장</h5>
+                        <p>롯데 자이언츠의 홈구장으로 1985년 10월에 완공하였으며 외형은 일본 요코하마 스타디움과 비슷합니다.<br />
+                            본래는 야구는 물론 축구와 럭비 등 다양한 종목의 경기가 함께 열릴 수 있는 다용도 종합경기장으로 지어 내야 관중석은 가변식이었으나<br />
+                            지금은 야구 경기만 치르고 있어 내야석을 이동할 일은 없습니다.</p>
+                    </div><!-- .title end -->
+                    <ul class="text_wrap">
+                        <li>
+                            <span class="top">부산광역시<br />동래구 사직로 45</span>
+                            <span class="bottom">위치</span>
+                        </li>
+                        <li>
+                            <span class="top">50,301㎡</span>
+                            <span class="bottom">총 면적</span>
+                        </li>
+                        <li>
+                            <span class="top">22,669석</span>
+                            <span class="bottom">관람석</span>
+                        </li>
+                    </ul><!-- .text_wrap end -->
+                </div><!-- .inner end -->
+                <div class="rolling">
+                    <img src="../img/park-01.png" alt="사직구장">
+                    <img src="../img/park-02.png" alt="사직구장">
+                    <img src="../img/park-03.png" alt="사직구장">
+                    <img src="../img/park-04.png" alt="사직구장">
+                    <img src="../img/park-01.png" alt="사직구장">
+                    <img src="../img/park-02.png" alt="사직구장">
+                    <img src="../img/park-03.png" alt="사직구장">
+                    <img src="../img/park-04.png" alt="사직구장">
+                </div><!-- .rolling end -->
+                <div class="other_park inner">
+                    <ul class="item_wrap">
+                        <li class="title">
+                            <div class="image">
+                                <img src="../img/otherparkbg.png" alt="롯데 자이언츠의 다른 구장도 살펴보세요!">
+                            </div><!-- .image end -->
+                            <div class="text">
+                                <p>롯데 자이언츠의<br />다른 구장도 살펴보세요!</p>
+                                <ul class="sub-txt">
+                                    <li>문수야구장</li>
+                                    <li></li>
+                                    <li>상동야구장</li>
+                                </ul><!-- .sub-txt end -->
+                            </div><!-- .text end -->
+                        </li>
+                        <li class="item">
+                            <div class="image">
+                                <img src="../img/otherpark01.png" alt="문수야구장">
+                            </div><!-- .image end -->
+                            <span>문수야구장</span>
+                        </li>
+                        <li class="item">
+                            <div class="image">
+                                <img src="../img/otherpark02.png" alt="상동야구장">
+                            </div><!-- .image end -->
+                            <span>상동야구장 (퓨처스리그)</span>
+                        </li>
+                    </ul><!-- .item_wrap end -->
+                </div><!-- .other_park end -->
+            </section><!-- .section-06 end -->
         </main><!-- .main end -->
+
+        <footer class="footer">
+            <div class="btn_wrap">
+                <button type="button" class="skybox">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M52.5 18.3826V41.6175C52.5 42.1622 52.2048 42.664 51.7286 42.9287L30.7285 54.5952C30.2755 54.847 29.7246 54.847 29.2716 54.5952L8.27157 42.9287C7.7954 42.664 7.50005 42.1622 7.50005 41.6175L7.5 18.3826C7.5 17.8378 7.79535 17.3359 8.27155 17.0714L29.2716 5.4047C29.7246 5.15302 30.2755 5.15302 30.7285 5.4047L51.7286 17.0714C52.2046 17.3359 52.5 17.8378 52.5 18.3826Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M8.82104 18.2339L29.2714 29.5953C29.7244 29.847 30.2754 29.847 30.7284 29.5953L51.2499 18.1944"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M30 52.5V30" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button><!-- .skybox end -->
+                <button type="button" class="chat">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.5 31.25C16.8097 31.25 16.25 30.6903 16.25 30C16.25 29.3097 16.8097 28.75 17.5 28.75C18.1903 28.75 18.75 29.3097 18.75 30C18.75 30.6903 18.1903 31.25 17.5 31.25Z"
+                            fill="white" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M30 31.25C29.3097 31.25 28.75 30.6903 28.75 30C28.75 29.3097 29.3097 28.75 30 28.75C30.6903 28.75 31.25 29.3097 31.25 30C31.25 30.6903 30.6903 31.25 30 31.25Z"
+                            fill="white" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M42.5 31.25C41.8096 31.25 41.25 30.6903 41.25 30C41.25 29.3097 41.8096 28.75 42.5 28.75C43.1903 28.75 43.75 29.3097 43.75 30C43.75 30.6903 43.1903 31.25 42.5 31.25Z"
+                            fill="white" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M30 55C16.193 55 5 43.807 5 30C5 16.1929 16.193 5 30 5C43.8071 5 55 16.1929 55 30C55 34.5535 53.7826 38.8227 51.6554 42.5L53.75 53.75L42.5 51.6555C38.8228 53.7825 34.5535 55 30 55Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button><!-- .chat end -->
+                <button type="button" class="top">
+                    <span>TOP</span>
+                </button><!-- .top end -->
+            </div><!-- .btn_wrap end -->
+            <div class="inner">
+                <div class="left">
+                    <div class="logo">
+                        <img src="../img/footer-logo.png" alt="푸터로고">
+                    </div><!-- .logo -->
+                    <div class="text_wrap">
+                        <ul class="menu">
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">이용약관</a></li>
+                        </ul><!-- .munu -->
+                        <ul class="info">
+                            <li>부산광역시 동래구 사직로 45</li>
+                            <li>사업자등록번호 607-81-19196</li>
+                            <li>(주)롯데자이언츠 대표 김덕희</li>
+                        </ul><!-- .info -->
+                        <span>TEL 051-852-1982</span>
+                    </div><!-- .text_wrap end -->
+                </div><!-- .left end -->
+                <div class="right">
+                    <ul class="logo_wrap">
+                        <li><img src="../img/footer-edulogo.png" alt="교육기부 우수기관"></li>
+                        <li><img src="../img/footer-weblogo.png" alt="웹접근성"></li>
+                    </ul><!-- .logo_wrap end -->
+                    <span>COPYRIGHT 2015 LOTTE GIANTS. ALL RIGHTS RESERVED.</span>
+                </div><!-- .right end -->
+            </div><!-- .inner end -->
+        </footer><!-- .footer end -->
     </div><!-- #wrap end -->
 </body>
+
 </html>

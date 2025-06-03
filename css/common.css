@@ -32,10 +32,10 @@ html {
 }
 
 section {
-    margin-bottom: 24rem;
+    /* margin-bottom: 24rem; */
     .inner {
-    max-width: 1440px;
-    width: calc(100% - 40px);
+    /* max-width: 1440px; */
+    /* width: calc(100% - 40px); */
     margin: 0 auto;
     } /* inner */
 } /* section */
